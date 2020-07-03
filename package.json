@@ -1,0 +1,21 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": "git@github.com:Coding-Senpai/javascript-algorithms.git",
+  "author": "Bartosz Błaszczak <bartsz.blaszczak@codingsenpai.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6"
+  }
+}
