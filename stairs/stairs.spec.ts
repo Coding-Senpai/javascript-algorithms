@@ -9,7 +9,7 @@ test("stairsLoop called with 2", () => {
   expect(consoleLogSpy.mock.calls.length).toEqual(2);
 });
 
-test("stairsRecursion called with 2", () => {
+test("stairsRecursion called with 3", () => {
   stairsRecursion(3);
   expect(consoleLogSpy.mock.calls[0][0]).toEqual("#  ");
   expect(consoleLogSpy.mock.calls[1][0]).toEqual("## ");
